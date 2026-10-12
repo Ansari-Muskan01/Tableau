@@ -62,8 +62,8 @@ Data concepts in Tableau help users understand how data is organized and how dif
 
 **Data Types:** Tableau supports different data types, such as String, Number, Date, Date & Time, Boolean, and Geographic values.<BR>
 
-Aggregation: Aggregation combines multiple values into a single result. Common examples include SUM, AVG, MIN, MAX, and COUNT.
+**Aggregation:** Aggregation combines multiple values into a single result. Common examples include SUM, AVG, MIN, MAX, and COUNT.
 
-Data Connection: Tableau can connect to files, databases, and other supported data sources to access data for analysis.
+**Data Connection:** Tableau can connect to files, databases, and other supported data sources to access data for analysis.
 
-Example: In a sales dataset, Category can be used as a dimension, while Sales can be used as a measure.
+**Example:** In a sales dataset, Category can be used as a dimension, while Sales can be used as a measure.
