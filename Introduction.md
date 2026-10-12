@@ -1,4 +1,4 @@
-Data Description:
+## Data Description:
 
 This dataset contains information about Airbnb property listings in New York City. It includes details about hosts, property names, neighbourhoods, property types, room types, prices, beds, and customer reviews. The dataset helps us understand property prices, compare different room types, analyze neighbourhood-wise listings, and check customer satisfaction based on review ratings.
 
@@ -23,6 +23,6 @@ This dataset contains information about Airbnb property listings in New York Cit
 | Review Scores Rating | Decimal | Overall rating given by guests to the property |
 
 
-Purpose of the Dataset:
+## Purpose of the Dataset:
 
 The main purpose of this dataset is to analyze Airbnb property prices, compare room types, understand property distribution across neighbourhoods, identify highly rated properties, and study customer reviews. It can also help compare prices and ratings to understand the factors that may influence customer preferences.
