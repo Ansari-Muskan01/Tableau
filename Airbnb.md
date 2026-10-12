@@ -44,6 +44,8 @@ The Tableau workspace is the main area where users connect to data, create visua
 
 **Sheet Tabs:** Used to switch between worksheets, dashboards, and stories.<BR>
 
+![Interface](interface.png)
+
 ## 4. Data Concepts
 
 Data concepts in Tableau help users understand how data is organized and how different fields are used to create visualizations.<BR>
