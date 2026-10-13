@@ -6,15 +6,28 @@
 
 3 - Create a Side-by-Side Bar Chart to compare the total quantity sold for each category by gender. (Hint: Dimension - Category, Gender; Measure - Qty)
 
-4 - Create a Line Chart to display the total sales amount over time. (Hint: Dimension - Date; Measure - Amount)
+4 - Create a Discrete Line Chart to display the total sales amount for each order date. (Hint: Chart - Discrete Line Chart, Dimension - Date (Discrete); Measure - Amount)
 
-5 - Create an Area Chart to display sales trends over time for each gender. (Hint: Dimension - Date, Gender; Measure - Amount)
+5 - Create a Continuous Line Chart to display the trend of total sales amount over time. (Hint: Chart - Continuous Line Chart, Dimension - Date (Continuous); Measure - Amount)
 
-6 - Create a Pie Chart to display the number of orders for each sales channel. (Hint: Dimension - Channel; Measure - Order ID (Count))
+6 - Create a Dual-Line Chart to compare the total quantity sold and total sales amount month-wise. (Hint: Chart - Dual-Line Chart, Dimension - Date (Month); Measures - Qty, Amount)
+
+7 - Create a Treemap to display the total sales amount for each category and size. (Hint: Dimension - Category, Size; Measure - Amount)
+
+8 - Create a Pie Chart to display the number of orders for each sales channel. (Hint: Dimension - Channel; Measure - Order ID (Count))
+
+9 - Create an Area Chart to display sales trends over time for each gender. (Hint: Dimension - Date, Gender; Measure - Amount)
+
+10 - Create a Scatter Plot to analyze the relationship between customer age and order amount. (Hint: Dimension - Cust ID; Measures - Age, Amount)
+
+
+
+
+
+
 
 7 - Create a Donut Chart to display the number of orders for each order status. (Hint: Dimension - Status; Measure - Order ID (Count))
 
-8 - Create a Treemap to display the total sales amount for each category and size. (Hint: Dimension - Category, Size; Measure - Amount)
 
 9 - Create a Packed Bubble Chart to compare the total sales amount for each category. (Hint: Dimension - Category; Measure - Amount)
 
@@ -23,8 +36,6 @@
 11 - Create a Highlight Table to compare the total sales amount across categories and genders. (Hint: Dimension - Category, Gender; Measure - Amount)
 
 12 - Create a Text Table to display the total sales amount and total quantity sold for each category. (Hint: Dimension - Category; Measures - Amount, Qty)
-
-13 - Create a Scatter Plot to analyze the relationship between customer age and order amount. (Hint: Dimension - Cust ID; Measures - Age, Amount)
 
 14 - Create a Histogram to display the distribution of customer ages. (Hint: Create Age Bins; Measure - Cust ID (Count))
 
