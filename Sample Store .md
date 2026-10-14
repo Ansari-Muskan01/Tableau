@@ -64,4 +64,8 @@ Columns: Order Date (Month) · Rows: Sales and Profit<br>
 9 - Analyze the relationship between Sales and Profit by Sub-Category .(Hint : Single Scatter Plot)<br>
 Columns: Sales · Rows: Profit · Detail: Sub-Category<br>
 
+10 - Create a highlight table showing total Profit for each Region and Category. Display the Profit values in each cell and use color to highlight higher and lower values.<br>
+
+Columns: Category , Rows: Region , Color: Profit , Text Values :Profit , Marks Type: Square<br>
+
 
