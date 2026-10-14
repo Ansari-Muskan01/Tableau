@@ -48,7 +48,7 @@ Column: Segment ,   Row: Sales<br>
 
 
 5 - Create a treemap to compare Sales across different Sub-Categories.(Hint : Treemap)<br>
-Label/Size: Sales , Color: Sub-Category<br>
+Column: Sub-Category , Rows: Sales <br>
 
 
 6 -  Create a stacked bar chart to compare Sales by Category, divided by Segment.(Hint : Stacked Bar Chart)<br>
