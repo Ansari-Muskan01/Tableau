@@ -61,7 +61,7 @@ Column : Category  , Segment  ,  Row:  Sales<br>
 8 - Compare monthly Sales and Profit trends in a single view using two axes.(Hint : Dual-Axis Line Chart)<br>
 Columns: Order Date (Month) · Rows: Sales and Profit<br>
 
-9 - Analyze the relationship between Sales and Profit for individual orders.(Hint : Single Scatter Plot)<br>
+9 - Analyze the relationship between Sales and Profit by Sub-Category .(Hint : Single Scatter Plot)<br>
 Columns: Sales · Rows: Profit · Detail: Sub-Category<br>
 
 
