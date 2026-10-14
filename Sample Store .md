@@ -33,7 +33,7 @@ This dataset helps users practice data cleaning, calculated fields, data visuali
 <br>
 1 - Create a horizontal bar chart to display total Sales by Sub-Category.(Hint :Horizontal Bar Chart)<br>
 Columns: Sales , Rows: Sub-Category<br>
-
+<br>
 
 2 -  Create a vertical bar chart to compare total Profit across each Category. (Hint :Vertical Bar Chart)<br>
 Columns: Category , Rows: Profit<br>
