@@ -1,7 +1,3 @@
-# Data Description
-
-The Superstore Sales dataset contains order-level information about products sold to customers across different cities, states, and regions of the United States. It includes customer details, product categories, order and shipping dates, sales amounts, quantities, discounts, and profits.
-
 ## Data Description
 
 The Superstore Sales dataset contains order-level information about products sold to customers across different cities, states, and regions of the United States. It includes customer details, product categories, order and shipping dates, sales amounts, quantities, discounts, and profits.
