@@ -32,26 +32,26 @@ This dataset helps users practice data cleaning, calculated fields, data visuali
 
 
 
-1. Create a horizontal bar chart to display total Sales by Sub-Category.(Hint :Horizontal Bar Chart)
-Columns: Sales , Rows: Sub-Category
+1. Create a horizontal bar chart to display total Sales by Sub-Category.(Hint :Horizontal Bar Chart)<br>
+Columns: Sales , Rows: Sub-Category<br>
 
-2. Create a vertical bar chart to compare total Profit across each Category. (Hint :Vertical Bar Chart)
-Columns: Category , Rows: Profit
+2. Create a vertical bar chart to compare total Profit across each Category. (Hint :Vertical Bar Chart)<br>
+Columns: Category , Rows: Profit<br>
 
-3.Create a line chart to show the monthly Sales trend over time.(Hint Line Chart) 
-Columns: Order Date (Month) , Rows: Sales
+3.Create a line chart to show the monthly Sales trend over time.(Hint Line Chart)<br>
+Columns: Order Date (Month) , Rows: Sales<br>
 
-4.Create a pie chart to show the percentage contribution of Sales by Segment.(Hint :Pie Chart)
-Column: Segment ,   Row: Sales
+4.Create a pie chart to show the percentage contribution of Sales by Segment.(Hint :Pie Chart)<br>
+Column: Segment ,   Row: Sales<br>
 
-5. Create a treemap to compare Sales across different Sub-Categories.(Hint : Treemap)
-Label/Size: Sales , Color: Sub-Category
+5. Create a treemap to compare Sales across different Sub-Categories.(Hint : Treemap)<br>
+Label/Size: Sales , Color: Sub-Category<br>
 
-6. Create a stacked bar chart to compare Sales by Category, divided by Segment.(Hint : Stacked Bar Chart)
-Columns: Sales , Color: Segment  Rows: Category , 
+6. Create a stacked bar chart to compare Sales by Category, divided by Segment.(Hint : Stacked Bar Chart)<br>
+Columns: Sales , Color: Segment  Rows: Category <br>
 
-7. Compare Sales for each Segment within every Category using side-by-side bars.(Hint : Side-by-Side Bar Chart)
-Column : Category  , Segment  ,  Row:  Sales
+7. Compare Sales for each Segment within every Category using side-by-side bars.(Hint : Side-by-Side Bar Chart)<br>
+Column : Category  , Segment  ,  Row:  Sales<br>
 
-8. Compare monthly Sales and Profit trends in a single view using two axes.(Hint : Dual-Axis Line Chart)
-Columns: Order Date (Month) · Rows: Sales and Profit
+8. Compare monthly Sales and Profit trends in a single view using two axes.(Hint : Dual-Axis Line Chart)<br>
+Columns: Order Date (Month) · Rows: Sales and Profit<br>
