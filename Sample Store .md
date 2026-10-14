@@ -2,27 +2,6 @@
 
 The Superstore Sales dataset contains order-level information about products sold to customers across different cities, states, and regions of the United States. It includes customer details, product categories, order and shipping dates, sales amounts, quantities, discounts, and profits.
 
-
-# Superstore Sales Dataset
-
-## Dataset Information
-
-**Dataset Name:** Superstore Sales Dataset
-
-**Dataset Type:** Retail Sales Data
-
-**Domain:** Sales and Business Analysis
-
-**Country:** United States
-
-**Data Format:** Tabular Data (Excel/CSV)
-
-**Total Columns:** 21
-
-**Sample Records Provided:** 7
-
-**Dataset Purpose:** This dataset contains information about customer orders, products, sales, discounts, shipping, and profits. It can be used to analyze sales performance, identify profitable products, compare product categories, and understand customer purchasing patterns.
-
 ## Data Description
 
 The Superstore Sales dataset contains order-level information about products sold to customers across different cities, states, and regions of the United States. It includes customer details, product categories, order and shipping dates, sales amounts, quantities, discounts, and profits.
