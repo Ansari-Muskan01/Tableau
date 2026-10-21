@@ -2,42 +2,42 @@
 
 ## 1. Logical Functions
 
-IF, ELSEIF, ELSE : Used to check conditions and return results.
+**IF, ELSEIF, ELSE :** Used to check conditions and return results.
 
-Syntax : 
+**Syntax :**
 IF condition THEN result
 ELSEIF condition THEN result
 ELSE result
 END
 
-CASE : Used to compare a field with different values.
+**CASE :** Used to compare a field with different values.
 
-Syntax:
+**Syntax:**
 CASE [Field Name]
 WHEN "Value 1" THEN "Result 1"
 WHEN "Value 2" THEN "Result 2"
 ELSE "Default Result"
 END
 
-IIF() : Used to check a condition and return one result if the condition is TRUE and another result if it is FALSE.
+**IIF() :** Used to check a condition and return one result if the condition is TRUE and another result if it is FALSE.
 
-Syntax: IIF(condition, result_if_true, result_if_false)
+**Syntax:** IIF(condition, result_if_true, result_if_false)
 
-IFNULL() : Returns an alternative value if the original value is Null.
-Syntax: IFNULL([Profit], 0)  -- (Note : If Profit is Null, it returns 0. Otherwise, it returns the original Profit value.)
+**IFNULL() :** Returns an alternative value if the original value is Null.
+**Syntax:** IFNULL([Profit], 0)  -- (Note : If Profit is Null, it returns 0. Otherwise, it returns the original Profit value.)
 
-ISNULL() : Checks whether a value is Null.
-Syntax: ISNULL([Profit])   -- (Note :  Returns TRUE if Profit is Null and FALSE if Profit is not Null.)
+**ISNULL() :** Checks whether a value is Null.
+**Syntax:** ISNULL([Profit])   -- (Note :  Returns TRUE if Profit is Null and FALSE if Profit is not Null.)
 
-ZN() : Replaces Null numeric values with zero.
-Syntax: ZN([Profit])
+**ZN() :** Replaces Null numeric values with zero.
+**Syntax:** ZN([Profit])
 
 ## 2. Number Functions
 
-ABS() : Returns the absolute value of a number.
-ROUND() : Rounds a number to the specified decimal places.
-CEILING() : Rounds a number up to the next integer.
-FLOOR() : Rounds a number down to the previous integer.
+**ABS() :** Returns the absolute value of a number.
+**ROUND() :** Rounds a number to the specified decimal places.
+**CEILING() :** Rounds a number up to the next integer.
+**FLOOR() :** Rounds a number down to the previous integer.
 
 | Function | Example Value | Formula | Output |
 |---|---:|---|---:|
@@ -48,15 +48,15 @@ FLOOR() : Rounds a number down to the previous integer.
 
 ## 3. String Functions
 
-UPPER() : Converts text to uppercase.
-LOWER() : Converts text to lowercase.
-PROPER() : Converts the first letter of each word to uppercase.
-TRIM() : Removes extra spaces from the beginning and end of text.
-LEN() : Returns the number of characters in a string.
-LEFT() : Returns characters from the left side.
-RIGHT() : Returns characters from the right side.
-CONTAINS() : Checks whether text contains a particular word or character.
-REPLACE() : Replaces matching text with new text.
+**UPPER() :** Converts text to uppercase.
+**LOWER() :** Converts text to lowercase.
+**PROPER() :** Converts the first letter of each word to uppercase.
+**TRIM() :** Removes extra spaces from the beginning and end of text.
+**LEN() :** Returns the number of characters in a string.
+**LEFT() :** Returns characters from the left side.
+**RIGHT() :** Returns characters from the right side.
+**CONTAINS() :** Checks whether text contains a particular word or character.
+**REPLACE() :** Replaces matching text with new text.
 
 ## 4. Date Functions
 
