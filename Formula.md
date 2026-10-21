@@ -93,43 +93,42 @@ DATEADD() : Adds an interval to a date.<br>
 
 ## 5. Basic Aggregate Functions
 
-SUM() : Returns the total of values.
-AVG() : Returns the average value.
-MIN() : Returns the minimum value.
-MAX() : Returns the maximum value.
-COUNT() : Counts non-Null values.
-COUNTD() : Counts unique, non-Null values.
+**SUM() :** Returns the total of values.<br>
+**AVG() :** Returns the average value.<br>
+**MIN() :** Returns the minimum value.<br>
+**MAX() :** Returns the maximum value.<br>
+**COUNT() :** Counts non-Null values.<br>
+**COUNTD() :** Counts unique, non-Null values.<br>
 
 
 
 
 
-Questions : 
-
-1. Replace Null Profit values with zero using IFNULL().
-2. Create a calculated field to categorize orders based on profit using the following conditions:
-- If Profit is greater than 200, return "High Profit".
-- If Profit is greater than 0 and less than or equal to 200, return "Low Profit".
-- Otherwise, return "No Profit".
-3. Use CASE to group Technology as Electronics, Furniture as Home Products, and Office Supplies as Office Products.
-4. Use IIF() to return High Sales if Sales is greater than 1000, otherwise Low Sales.
-5. Use ZN() to replace Null numeric Profit values with zero.
-6. Round Sales to two decimal places.
-7.Convert Customer Name to uppercase.
-8.Convert Customer Name to lowercase.
-9.Convert the first letter of each word to uppercase.
-10.Find the number of characters in each Customer Name.
-11.Extract the first three characters of Product Name.
-12.Extract the last three characters of Product Name.
-13.Check whether Product Name contains the word "Phone".
-14.Replace "Office Supplies" with "Office" in Category.
-15.Extract the first character of Customer Name.
-16.Display the current date.
-17.Display the current date and time.
-18.Extract the year from Order Date.
-19.Extract the month number from Order Date.
-20.Extract the day of the month from Order Date.
-21.Calculate how many days each order took to ship.
-22.Calculate a date one month after Order Date.
-23.Calculate a date seven days after Order Date.
+**Questions :**
+1. Replace Null Profit values with zero using IFNULL().<br>
+2. Create a calculated field to categorize orders based on profit using the following conditions:<br>
+- If Profit is greater than 200, return "High Profit".<br>
+- If Profit is greater than 0 and less than or equal to 200, return "Low Profit".<br>
+- Otherwise, return "No Profit".<br>
+3. Use CASE to group Technology as Electronics, Furniture as Home Products, and Office Supplies as Office Products.<br>
+4. Use IIF() to return High Sales if Sales is greater than 1000, otherwise Low Sales.<br>
+5. Use ZN() to replace Null numeric Profit values with zero.<br>
+6. Round Sales to two decimal places.<br>
+7.Convert Customer Name to uppercase.<br>
+8.Convert Customer Name to lowercase.<br>
+9.Convert the first letter of each word to uppercase.<br>
+10.Find the number of characters in each Customer Name.<br>
+11.Extract the first three characters of Product Name.<br>
+12.Extract the last three characters of Product Name.<br>
+13.Check whether Product Name contains the word "Phone".<br>
+14.Replace "Office Supplies" with "Office" in Category.<br>
+15.Extract the first character of Customer Name.<br>
+16.Display the current date.<br>
+17.Display the current date and time.<br>
+18.Extract the year from Order Date.<br>
+19.Extract the month number from Order Date.<br>
+20.Extract the day of the month from Order Date.<br>
+21.Calculate how many days each order took to ship.<br>
+22.Calculate a date one month after Order Date.<br>
+23.Calculate a date seven days after Order Date.<br>
 
