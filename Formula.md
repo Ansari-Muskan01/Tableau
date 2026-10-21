@@ -71,13 +71,13 @@ END<br>
 
 ## 4. Date Functions
 
-TODAY() : Returns the current date.
-NOW() : Returns the current date and time.
-YEAR() : Returns the year from a date.
-MONTH() : Returns the month number from a date.
-DAY() : Returns the day of the month.
-DATEDIFF() : Calculates the difference between two dates.
-DATEADD() : Adds an interval to a date.
+TODAY() : Returns the current date.<br>
+NOW() : Returns the current date and time.<br>
+YEAR() : Returns the year from a date.<br>
+MONTH() : Returns the month number from a date.<br>
+DAY() : Returns the day of the month.<br>
+DATEDIFF() : Calculates the difference between two dates.<br>
+DATEADD() : Adds an interval to a date.<br>
 
 
 ## 5. Basic Aggregate Functions
