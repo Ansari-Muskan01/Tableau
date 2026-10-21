@@ -1,1 +1,113 @@
-Tableau Basic Functions
+# Tableau Basic Functions
+
+## 1. Logical Functions
+
+IF, ELSEIF, ELSE : Used to check conditions and return results.
+
+Syntax : 
+IF condition THEN result
+ELSEIF condition THEN result
+ELSE result
+END
+
+CASE : Used to compare a field with different values.
+
+Syntax:
+CASE [Field Name]
+WHEN "Value 1" THEN "Result 1"
+WHEN "Value 2" THEN "Result 2"
+ELSE "Default Result"
+END
+
+IIF() : Used to check a condition and return one result if the condition is TRUE and another result if it is FALSE.
+
+Syntax: IIF(condition, result_if_true, result_if_false)
+
+IFNULL() : Returns an alternative value if the original value is Null.
+Syntax: IFNULL([Profit], 0)  -- (Note : If Profit is Null, it returns 0. Otherwise, it returns the original Profit value.)
+
+ISNULL() : Checks whether a value is Null.
+Syntax: ISNULL([Profit])   -- (Note :  Returns TRUE if Profit is Null and FALSE if Profit is not Null.)
+
+ZN() : Replaces Null numeric values with zero.
+Syntax: ZN([Profit])
+
+## 2. Number Functions
+
+ABS() : Returns the absolute value of a number.
+ROUND() : Rounds a number to the specified decimal places.
+CEILING() : Rounds a number up to the next integer.
+FLOOR() : Rounds a number down to the previous integer.
+
+| Function | Example Value | Formula | Output |
+|---|---:|---|---:|
+| `ABS()` | -150.75 | `ABS(-150.75)` | 150.75 |
+| `ROUND()` | 1200.567 | `ROUND(1200.567, 2)` | 1200.57 |
+| `CEILING()` | 12.3 | `CEILING(12.3)` | 13 |
+| `FLOOR()` | 12.8 | `FLOOR(12.8)` | 12 |
+
+## 3. String Functions
+
+UPPER() : Converts text to uppercase.
+LOWER() : Converts text to lowercase.
+PROPER() : Converts the first letter of each word to uppercase.
+TRIM() : Removes extra spaces from the beginning and end of text.
+LEN() : Returns the number of characters in a string.
+LEFT() : Returns characters from the left side.
+RIGHT() : Returns characters from the right side.
+CONTAINS() : Checks whether text contains a particular word or character.
+REPLACE() : Replaces matching text with new text.
+
+## 4. Date Functions
+
+TODAY() : Returns the current date.
+NOW() : Returns the current date and time.
+YEAR() : Returns the year from a date.
+MONTH() : Returns the month number from a date.
+DAY() : Returns the day of the month.
+DATEDIFF() : Calculates the difference between two dates.
+DATEADD() : Adds an interval to a date.
+
+
+## 5. Basic Aggregate Functions
+
+SUM() : Returns the total of values.
+AVG() : Returns the average value.
+MIN() : Returns the minimum value.
+MAX() : Returns the maximum value.
+COUNT() : Counts non-Null values.
+COUNTD() : Counts unique, non-Null values.
+
+
+
+
+
+Questions : 
+
+1. Replace Null Profit values with zero using IFNULL().
+2. Create a calculated field to categorize orders based on profit using the following conditions:
+- If Profit is greater than 200, return "High Profit".
+- If Profit is greater than 0 and less than or equal to 200, return "Low Profit".
+- Otherwise, return "No Profit".
+3. Use CASE to group Technology as Electronics, Furniture as Home Products, and Office Supplies as Office Products.
+4. Use IIF() to return High Sales if Sales is greater than 1000, otherwise Low Sales.
+5. Use ZN() to replace Null numeric Profit values with zero.
+6. Round Sales to two decimal places.
+7.Convert Customer Name to uppercase.
+8.Convert Customer Name to lowercase.
+9.Convert the first letter of each word to uppercase.
+10.Find the number of characters in each Customer Name.
+11.Extract the first three characters of Product Name.
+12.Extract the last three characters of Product Name.
+13.Check whether Product Name contains the word "Phone".
+14.Replace "Office Supplies" with "Office" in Category.
+15.Extract the first character of Customer Name.
+16.Display the current date.
+17.Display the current date and time.
+18.Extract the year from Order Date.
+19.Extract the month number from Order Date.
+20.Extract the day of the month from Order Date.
+21.Calculate how many days each order took to ship.
+22.Calculate a date one month after Order Date.
+23.Calculate a date seven days after Order Date.
+
