@@ -45,15 +45,15 @@ END<br>
 
 ## 3. String Functions
 
-**UPPER() :** Converts text to uppercase.
-**LOWER() :** Converts text to lowercase.
-**PROPER() :** Converts the first letter of each word to uppercase.
-**TRIM() :** Removes extra spaces from the beginning and end of text.
-**LEN() :** Returns the number of characters in a string.
-**LEFT() :** Returns characters from the left side.
-**RIGHT() :** Returns characters from the right side.
-**CONTAINS() :** Checks whether text contains a particular word or character.
-**REPLACE() :** Replaces matching text with new text.
+**UPPER() :** Converts text to uppercase.<br>
+**LOWER() :** Converts text to lowercase.<br>
+**PROPER() :** Converts the first letter of each word to uppercase.<br>
+**TRIM() :** Removes extra spaces from the beginning and end of text.<br>
+**LEN() :** Returns the number of characters in a string.<br>
+**LEFT() :** Returns characters from the left side.<br>
+**RIGHT() :** Returns characters from the right side.<br>
+**CONTAINS() :** Checks whether text contains a particular word or character.<br>
+**REPLACE() :** Replaces matching text with new text.<br>
 
 ## 3. String Functions
 
