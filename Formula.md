@@ -110,6 +110,7 @@ DATEADD() : Adds an interval to a date.<br>
 - If Profit is greater than 200, return "High Profit".<br>
 - If Profit is greater than 0 and less than or equal to 200, return "Low Profit".<br>
 - Otherwise, return "No Profit".<br>
+
 3. Use CASE to group Technology as Electronics, Furniture as Home Products, and Office Supplies as Office Products.<br>
 4. Use IIF() to return High Sales if Sales is greater than 1000, otherwise Low Sales.<br>
 5. Use ZN() to replace Null numeric Profit values with zero.<br>
