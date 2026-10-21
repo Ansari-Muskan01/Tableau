@@ -3,12 +3,11 @@
 ## 1. Logical Functions
 
 **IF, ELSEIF, ELSE :** Used to check conditions and return results.<br>
-
-**Syntax :**
-IF condition THEN result
-ELSEIF condition THEN result
-ELSE result
-END
+**Syntax :**<br>
+IF condition THEN result<br>
+ELSEIF condition THEN result<br>
+ELSE result<br>
+END<br>
 
 **CASE :** Used to compare a field with different values.<br>
 
