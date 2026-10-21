@@ -3,20 +3,19 @@
 ## 1. Logical Functions
 
 **IF, ELSEIF, ELSE :** Used to check conditions and return results.<br>
-**Syntax :**<br>
+**Syntax :** <br>
 IF condition THEN result<br>
 ELSEIF condition THEN result<br>
 ELSE result<br>
 END<br>
 
 **CASE :** Used to compare a field with different values.<br>
-
 **Syntax:**
-CASE [Field Name]
-WHEN "Value 1" THEN "Result 1"
-WHEN "Value 2" THEN "Result 2"
-ELSE "Default Result"
-END
+CASE [Field Name]<br>
+WHEN "Value 1" THEN "Result 1"<br>
+WHEN "Value 2" THEN "Result 2"<br>
+ELSE "Default Result"<br>
+END<br>
 
 **IIF() :** Used to check a condition and return one result if the condition is TRUE and another result if it is FALSE.<br>
 **Syntax:** IIF(condition, result_if_true, result_if_false)<br>
@@ -55,6 +54,20 @@ END
 **RIGHT() :** Returns characters from the right side.
 **CONTAINS() :** Checks whether text contains a particular word or character.
 **REPLACE() :** Replaces matching text with new text.
+
+## 3. String Functions
+
+| Function | Example Value | Formula | Output |
+|---|---|---|---|
+| `UPPER()` | riya shah | `UPPER("riya shah")` | RIYA SHAH |
+| `LOWER()` | RIYA SHAH | `LOWER("RIYA SHAH")` | riya shah |
+| `PROPER()` | riya shah | `PROPER("riya shah")` | Riya Shah |
+| `TRIM()` | "  Riya Shah  " | `TRIM("  Riya Shah  ")` | Riya Shah |
+| `LEN()` | Riya Shah | `LEN("Riya Shah")` | 9 |
+| `LEFT()` | iPhone 14 | `LEFT("iPhone 14", 3)` | iPh |
+| `RIGHT()` | iPhone 14 | `RIGHT("iPhone 14", 2)` | 14 |
+| `CONTAINS()` | Samsung Phone | `CONTAINS("Samsung Phone", "Phone")` | True |
+| `REPLACE()` | Office Supplies | `REPLACE("Office Supplies", "Supplies", "Products")` | Office Products |
 
 ## 4. Date Functions
 
