@@ -85,11 +85,11 @@ DATEADD() : Adds an interval to a date.<br>
 |---|---|---|---|
 | `TODAY()` | Current date | `TODAY()` | 2026-10-21 |
 | `NOW()` | Current date and time | `NOW()` | Current date and time |
-| `YEAR()` | 2025-01-05 | `YEAR(#2025-01-05#)` | 2025 |
-| `MONTH()` | 2025-01-05 | `MONTH(#2025-01-05#)` | 1 |
-| `DAY()` | 2025-01-05 | `DAY(#2025-01-05#)` | 5 |
-| `DATEDIFF()` | 2025-01-05 to 2025-01-08 | `DATEDIFF('day', #2025-01-05#, #2025-01-08#)` | 3 |
-| `DATEADD()` | 2025-01-05 | `DATEADD('day', 7, #2025-01-05#)` | 2025-01-12 |
+| `YEAR()` | 2025-01-05 | `YEAR(2025-01-05)` | 2025 |
+| `MONTH()` | 2025-01-05 | `MONTH(2025-01-05)` | 1 |
+| `DAY()` | 2025-01-05 | `DAY(2025-01-05)` | 5 |
+| `DATEDIFF()` | 2025-01-05 to 2025-01-08 | `DATEDIFF('day', 2025-01-05, 2025-01-08)` | 3 |
+| `DATEADD()` | 2025-01-05 | `DATEADD('day', 7, 2025-01-05)` | 2025-01-12 |
 
 ## 5. Basic Aggregate Functions
 
